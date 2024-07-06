@@ -1,14 +1,15 @@
 (function() {
     "use-strict";
 
-    // Window Load
-    $(window).load(function(){
-        $(".btt i").hide();
-    });
-
     // Window Scroll
     $(window).scroll(function(){
         let scrolling = $(this).scrollTop();
+
+        if(scrolling > 80) {
+            $(".main-header").addClass("shrink-header")
+        }else{
+            $(".main-header").removeClass("shrink-header")
+        }
     
         if( scrolling > 200){
             $(".btt i").fadeIn(500);
@@ -16,6 +17,11 @@
         else{
             $(".btt i").fadeOut(500);
         }
+    });
+
+    // Window Load
+    $(window).load(function(){
+        $(".btt i").hide();
     });
       
     // On Click BTT

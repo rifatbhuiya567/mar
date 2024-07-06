@@ -34,6 +34,10 @@
         font-size: 24px;
     }
 
+    .main-header.shrink-header .active-page-name {
+        font-size: 22px;
+    }
+
     .hero-slider .slider-img {
         height: 440px;
     }
@@ -141,8 +145,16 @@
         width: 100px;
     }
 
+    .main-header.shrink-header .logo {
+        width: 90px;
+    }
+
     .main-header .active-page-name {
         font-size: 22px;
+    }
+
+    .main-header.shrink-header .active-page-name {
+        font-size: 20px;
     }
 
     .hero-slider .slider-img {
@@ -213,8 +225,16 @@
         width: 90px;
     }
 
+    .main-header.shrink-header .logo{
+        width: 85px;
+    }
+
     .main-header .active-page-name {
         font-size: 20px;
+    }
+
+    .main-header.shrink-header .active-page-name {
+        font-size: 19px;
     }
 
     .hero-slider .slider-img {

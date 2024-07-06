@@ -123,6 +123,15 @@ h6 {
     font-size: 28px;
     font-weight: 300;
     color: var(--secondary_color);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.main-header.shrink-header .active-page-name {
+    font-size: 24px;
 }
 
 .color-orange {
@@ -308,10 +317,24 @@ body {
     z-index: 5;
     background-color: var(--white_color);
     box-shadow: .5px .5px 3px 0 rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
 }
 
 .main-header .logo {
     width: 140px;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.main-header.shrink-header .logo {
+    width: 120px;
 }
 /* Main Header CSS End */
 
